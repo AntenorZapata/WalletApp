@@ -77,7 +77,19 @@
       }
     }
 
-    @media screen and (min-width: 1200px) {
+
+  @media screen and (min-width: 1024px) {
+    .expense-content {
+      width: 20rem;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin-bottom: 2rem;
+    }
+  }
+
+    @media screen and (min-width: 1370px) {
       .expense-content {
         width: 22rem;
         margin: auto;

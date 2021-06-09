@@ -136,6 +136,7 @@ class FormExpenses extends Component {
       <div className="description-container">
         <label htmlFor="description">Descrição </label>
         <input
+          maxLength='16'
           required
           onChange={this.handleValue}
           name="description"
