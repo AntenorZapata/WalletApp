@@ -1,4 +1,4 @@
-# Wallet App - a digital wallet that allows users to record their expenses in different currencies.
+# Wallet App - #### a digital wallet that allows users to record their expenses in different currencies.
 
 In the app, the user will be able to add, remove and edit an expense; view your expenses and total spent converted to a currency of your choice.
 
