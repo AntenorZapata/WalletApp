@@ -1,0 +1,88 @@
+@media (min-width: 350px) {
+  .modal-form {
+    color: white;
+    background-color: #3a2a4d86;
+    border-radius: 20px;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: -12rem 1.5rem -19rem 1.5rem;
+
+    .x-close {
+      margin-left: 100%;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: flex-start;
+      min-height: 100%;
+      width: 80%;
+
+      input,
+      select {
+        display: flex;
+        flex-direction: column;
+        outline: none;
+        padding: 0.2rem;
+        border-radius: 5px;
+        background-color: rgb(215, 210, 218);
+        border: 1px solid $lightGray;
+        font-family: 'Karla';
+      }
+
+      label {
+        display: block;
+        display: block;
+        margin-bottom: 0.6rem;
+      }
+
+      button {
+        margin: 0.5rem 0 1rem 0;
+        padding: 0.4rem 1rem;
+        border-radius: 20px;
+        background-color: transparent;
+        border: 1px solid $lightGray;
+        font-family: 'Karla';
+        color: #eee;
+        font-size: 0.9rem;
+        outline: none;
+
+        &:hover {
+          background-color: #eaeaea;
+
+          color: #222;
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 620px) {
+    .modal-form {
+      width: 45%;
+      height: 30rem;
+      margin: -9rem auto;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .modal-form {
+      width: 25%;
+      height: 30rem;
+      margin: -9rem auto;
+    }
+  }
+
+  @media screen and (min-width: 1370px) {
+    .modal-form {
+      width: 20%;
+      height: 30rem;
+      margin: -5rem auto;
+    }
+  }
+}

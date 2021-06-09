@@ -1,0 +1,79 @@
+@media (min-width: 350px) {
+
+  @keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    80% {
+    }
+
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+
+  @keyframes moveInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    80% {
+    }
+
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+
+  .sidebar {
+    animation-name: moveInLeft;
+    animation-duration: 0.5s;
+    position: absolute;
+    top: 0;
+    bottom: 100%;
+    z-index: 1;
+    width: 20%;
+    height: 80px;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    .btn-logout-container {
+
+      button {
+        padding: 0.8rem 2rem;
+        color: rgb(44, 37, 37);
+        border: none;
+        border-radius: 4px;
+        font-size: 1rem;
+        width: 100%;
+
+        &:hover {
+          background-color: #350842;
+          color: #eee;
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 620px) {
+    .sidebar {
+      width: 10%;
+      height: 80px;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .sidebar {
+      width: 5%;
+      height: 80px;
+    }
+  }
+
+
+}
+
