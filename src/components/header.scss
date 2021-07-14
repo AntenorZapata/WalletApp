@@ -1,0 +1,80 @@
+@media (min-width: 350px) {
+  header {
+
+    nav {
+
+      .email {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: $lightGray;
+        margin: 2.5rem 2rem 0 2rem;
+
+        .sidebar-toggle {
+          color: $lightGray;
+          font-size: 1.5rem;
+          background-color: transparent;
+          border: none;
+        }
+
+        p {
+          font-size: 1.1rem;
+          letter-spacing: 0.05rem;
+        }
+
+        @media screen and (min-width: 1200px) {
+          p {
+            font-size: 1.7rem;
+            letter-spacing: 0.05rem;
+          }
+        }
+      }
+
+      .total-field-no-border {
+        visibility: hidden;
+      }
+
+      .total-field {
+        background-color: #44266650;
+        width: 85%;
+        margin: 3rem auto;
+        height: 8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px 10px;
+        border: 1px solid #afafc357;
+
+        .value {
+          color: white;
+          font-size: 3rem;
+          font-family: 'Oxygen';
+        }
+
+        .desatived {
+          color: $grayColor;
+          font-size: 3rem;
+          font-family: 'Oxygen';
+        }
+
+        .header-currency-field {
+          color: $grayColor;
+        }
+      }
+
+      @media screen and (min-width: 620px) {
+        .total-field {
+          width: 45%;
+          background-color: #44266650;
+        }
+      }
+
+      @media screen and (min-width: 1200px) {
+        .total-field {
+          width: 25%;
+          background-color: #44266650;
+        }
+      }
+    }
+  }
+}

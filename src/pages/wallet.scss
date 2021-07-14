@@ -1,0 +1,206 @@
+@media (min-width: 350px) {
+
+  .expanse-table-container {
+    display: flex;
+    flex-direction: column;
+
+    .clear-list {
+      display: flex;
+      justify-content: flex-end;
+      margin: -2rem 2rem;
+
+      .clear-all-icon {
+        font-size: 1.6rem;
+        color: rgb(235, 221, 221);
+      }
+    }
+  }
+
+  .new-expense {
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+    color: $lightGray;
+    margin: -22rem 2rem 0 2rem;
+
+    .money-icon {
+      font-size: 3rem;
+      color: $grayColor;
+      border: 1px solid $lightGray;
+      border-radius: 50%;
+      padding: 0.4rem;
+      opacity: 0.6;
+      position: absolute;
+      top: 42%;
+      left: 42%;
+
+      &:active {
+        box-shadow: 0 5px rgba(27, 4, 27, 0.212);
+        transform: translateY(2px);
+      }
+    }
+
+
+
+    @media screen and (min-width: 620px) {
+      .money-icon {
+        position: absolute;
+        top: 17.5rem;
+        left: 22rem;
+      }
+    }
+
+    @media screen and (min-width: 1024px) {
+      .money-icon {
+        position: absolute;
+        top: 17.5rem;
+        left: 40.5rem;
+      }
+    }
+
+    @media screen and (min-width: 1370px) {
+      .money-icon {
+        font-size: 3rem;
+        color: $grayColor;
+        border: 1px solid white;
+        border-radius: 50%;
+        padding: 0.4rem;
+        opacity: 0.6;
+        position: absolute;
+        top: 17.5rem;
+        left: 58rem;
+        background-color: rgba(27, 4, 27, 0.582);
+        color: white;
+
+        &:hover {
+          background-color: white;
+          color: rgb(77, 13, 77);
+          border: 1px solid rgb(82, 20, 66);
+        }
+
+        &:active {
+          box-shadow: 0 5px rgba(27, 4, 27, 0.212);
+          transform: translateY(2px);
+        }
+      }
+    }
+
+
+
+    .money-icon-up {
+      font-size: 3rem;
+      color: $grayColor;
+      border: 1px solid $lightGray;
+      border-radius: 50%;
+      padding: 0.4rem;
+      opacity: 0.6;
+      position: absolute;
+      top: 16rem;
+      left: 10rem;
+    }
+  }
+
+  .header-expense {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+    span {
+      border-top: 0.5px solid $lightGray;
+      display: block;
+      border-right: 0.5px solid $lightGray;
+      border-left: 0.5px solid $lightGray;
+      padding: 0 1rem;
+      border-radius: 6px;
+      font-weight: 300;
+      font-family: 'Karla';
+      letter-spacing: 0.1rem;
+      cursor: pointer;
+
+      &:active {
+        box-shadow: 0 5px rgba(27, 4, 27, 0.212);
+        transform: translateY(2px);
+      }
+    }
+  }
+
+
+  @media screen and (min-width: 620px) {
+    .header-expense {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: white;
+      width: 60%;
+      margin: auto;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .header-expense {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: white;
+      width: 60%;
+      margin: auto;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .header-expense {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: white;
+      width: 30%;
+      margin: auto;
+    }
+  }
+
+
+  .empty-wallet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 5.5rem auto;
+
+    p {
+      font-family: 'Waiting for the Sunrise';
+      font-size: 1.3rem;
+      color: $lightGray;
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+    }
+
+    .hand-icon {
+      font-size: 5rem;
+      color: $lightGray;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+
+    .empty-wallet {
+      margin: 8rem auto;
+
+      p {
+        font-size: 1.5rem;
+      }
+
+      .hand-icon {
+        font-size: 7rem;
+      }
+    }
+  }
+
+  .active {
+    color: white;
+    background: rgba(150, 72, 133, 0.445);
+  }
+}
