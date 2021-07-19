@@ -4,7 +4,7 @@
 
 In the app, the user will be able to add, remove and edit an expense; view your expenses and total spent converted to a currency of your choice.
 
-O layout tem como foco dispositivos móveis.
+The layout focuses on mobile devices.
 
 ### React, Redux, Sass and awesomeapi - currency quote (https://economia.awesomeapi.com.br/json/all)
 
