@@ -8,7 +8,7 @@ import {
   AUTHORIZED_UPDATE,
   ARCHIVE_EXPENSE,
   SHOW_ARCHIVED,
-  AUTHORIZE_FILTER,
+  AUTHORIZE_FILTER
 } from './types';
 
 export function isFetching() {
