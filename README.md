@@ -17,7 +17,7 @@
 
 React, Redux, Sass and awesomeapi - [currency quote](https://economia.awesomeapi.com.br/json/all)
 
-## :clapper: How to run
+## :clapper: How to Run
 
     Clone the repo
     $ git clone git@github.com:AntenorZapata/WalletApp.git
