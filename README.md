@@ -9,15 +9,15 @@
 <a href="https://reverent-jackson-784b2e.netlify.app/">Demo</a>
 </h3>
 
-## :speech_balloon: Sobre
+## :speech_balloon: About
  Digital wallet that allows users to record their expenses in different currencies. In the app, the user will be able to add, remove and edit an expense; view your expenses and total spent converted to a currency of your choice. The layout focuses on mobile devices.
 
 
-## :computer: Tecnologias
+## :computer: Techs
 
 React, Redux, Sass and awesomeapi - [currency quote](https://economia.awesomeapi.com.br/json/all)
 
-## :clapper: Como executar
+## :clapper: How to run
 
     Clone the repo
     $ git clone git@github.com:AntenorZapata/WalletApp.git
