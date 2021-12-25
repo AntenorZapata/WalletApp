@@ -9,7 +9,7 @@
 <a href="https://reverent-jackson-784b2e.netlify.app/">Demo</a>
 </h3>
 
-## 💡 Meus comentários
+## 💡 My comments
  Digital wallet that allows users to record their expenses in different currencies. In the app, the user will be able to add, remove and edit an expense; view your expenses and total spent converted to a currency of your choice. The layout focuses on mobile devices.
 
 
